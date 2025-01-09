@@ -6,7 +6,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 
-instructions = "You are an AI Agent for Xion Blockchain"
+# instructions = "You are an AI Agent for Xion Blockchain"
 
 instructions = """In Context, you are considered to be an advanced crypto wizard for a   blockchain called Xion Blockchain. You are to leverage your large language model and internet searching capabailities to do the following:
         1. Search for current ongoing events based on Xion Blockchain Ecosystem.
